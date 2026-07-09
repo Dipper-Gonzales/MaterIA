@@ -28,12 +28,65 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Text = "FormLogicaMatematica";
+            button1 = new Button();
+            txtValorA = new TextBox();
+            txtValorB = new TextBox();
+            lblResultado = new Label();
+            SuspendLayout();
+            // 
+            // button1
+            // 
+            button1.Location = new Point(183, 40);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 0;
+            button1.Text = "AND";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // txtValorA
+            // 
+            txtValorA.Location = new Point(136, 209);
+            txtValorA.Name = "txtValorA";
+            txtValorA.Size = new Size(150, 31);
+            txtValorA.TabIndex = 1;
+            // 
+            // txtValorB
+            // 
+            txtValorB.Location = new Point(463, 209);
+            txtValorB.Name = "txtValorB";
+            txtValorB.Size = new Size(150, 31);
+            txtValorB.TabIndex = 2;
+            // 
+            // lblResultado
+            // 
+            lblResultado.AutoSize = true;
+            lblResultado.Location = new Point(524, 65);
+            lblResultado.Name = "lblResultado";
+            lblResultado.Size = new Size(59, 25);
+            lblResultado.TabIndex = 3;
+            lblResultado.Text = "label1";
+            // 
+            // FormLogicaMatematica
+            // 
+            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleMode = AutoScaleMode.Font;
+            ClientSize = new Size(800, 450);
+            Controls.Add(lblResultado);
+            Controls.Add(txtValorB);
+            Controls.Add(txtValorA);
+            Controls.Add(button1);
+            Name = "FormLogicaMatematica";
+            Text = "FormLogicaMatematica";
+            ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private Button button1;
+        private TextBox txtValorA;
+        private TextBox txtValorB;
+        private Label lblResultado;
     }
 }
