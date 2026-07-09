@@ -13,7 +13,13 @@ namespace MaterIA
 
         private void buttonBinarioDecimal_Click(object sender, EventArgs e)
         {
-             FormLogicaMatematica formulario = new FormLogicaMatematica();
+            FormLogicaMatematica formulario = new FormLogicaMatematica();
+            formulario.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormSistemasNumericos formulario = new FormSistemasNumericos();
             formulario.Show();
         }
     }

@@ -30,6 +30,7 @@
         {
             labelTitulo = new Label();
             buttonBinarioDecimal = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // labelTitulo
@@ -51,11 +52,22 @@
             buttonBinarioDecimal.UseVisualStyleBackColor = true;
             buttonBinarioDecimal.Click += buttonBinarioDecimal_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(210, 68);
+            button1.Name = "button1";
+            button1.Size = new Size(89, 48);
+            button1.TabIndex = 2;
+            button1.Text = "Sitemas Numericos";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // FormPrincipal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(807, 453);
+            Controls.Add(button1);
             Controls.Add(buttonBinarioDecimal);
             Controls.Add(labelTitulo);
             Name = "FormPrincipal";
@@ -68,5 +80,6 @@
 
         private Label labelTitulo;
         private Button buttonBinarioDecimal;
+        private Button button1;
     }
 }

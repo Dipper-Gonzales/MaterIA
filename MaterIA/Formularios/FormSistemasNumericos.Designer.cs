@@ -1,6 +1,6 @@
 ﻿namespace MaterIA.Formularios
 {
-    partial class FormLogicaMatematica
+    partial class FormSistemasNumericos
     {
         /// <summary>
         /// Required designer variable.
@@ -28,18 +28,31 @@
         /// </summary>
         private void InitializeComponent()
         {
+            button1 = new Button();
             SuspendLayout();
             // 
-            // FormLogicaMatematica
+            // button1
+            // 
+            button1.Location = new Point(54, 52);
+            button1.Name = "button1";
+            button1.Size = new Size(104, 53);
+            button1.TabIndex = 0;
+            button1.Text = "Conversiones";
+            button1.UseVisualStyleBackColor = true;
+            // 
+            // FormSistemasNumericos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
-            Name = "FormLogicaMatematica";
-            Text = "FormLogicaMatematica";
+            Controls.Add(button1);
+            Name = "FormSistemasNumericos";
+            Text = "FormSistemasNumericos";
             ResumeLayout(false);
         }
 
         #endregion
+
+        private Button button1;
     }
 }
