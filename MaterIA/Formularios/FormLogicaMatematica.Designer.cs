@@ -32,6 +32,7 @@
             txtValorA = new TextBox();
             txtValorB = new TextBox();
             lblResultado = new Label();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -67,11 +68,22 @@
             lblResultado.TabIndex = 3;
             lblResultado.Text = "label1";
             // 
+            // button2
+            // 
+            button2.Location = new Point(372, 62);
+            button2.Name = "button2";
+            button2.Size = new Size(75, 28);
+            button2.TabIndex = 4;
+            button2.Text = "OR";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click;
+            // 
             // FormLogicaMatematica
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(button2);
             Controls.Add(lblResultado);
             Controls.Add(txtValorB);
             Controls.Add(txtValorA);
@@ -88,5 +100,6 @@
         private TextBox txtValorA;
         private TextBox txtValorB;
         private Label lblResultado;
+        private Button button2;
     }
 }

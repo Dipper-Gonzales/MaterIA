@@ -19,12 +19,22 @@ namespace MaterIA.Formularios
 
         private void button1_Click(object sender, EventArgs e)
         {
-             int valorA = int.Parse(txtValorA.Text);
-        int valorB = int.Parse(txtValorB.Text);
+            int valorA = int.Parse(txtValorA.Text);
+            int valorB = int.Parse(txtValorB.Text);
 
-        int resultado = logica.OperacionAnd(valorA, valorB);
+            int resultado = logica.OperacionAnd(valorA, valorB);
 
-        lblResultado.Text = "Resultado: " + resultado;
+            lblResultado.Text = "Resultado: " + resultado;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int valorA = int.Parse(txtValorA.Text);
+            int valorB = int.Parse(txtValorB.Text);
+
+            int resultado = logica.OperacionOr(valorA, valorB);
+
+            lblResultado.Text = "Resultado: " + resultado;
         }
     }
 }

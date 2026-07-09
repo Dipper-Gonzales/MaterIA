@@ -15,5 +15,14 @@ namespace MaterIA.Logica
         {
             return a && b;
         }
+        public int OperacionOr(int valorA, int valorB)
+        {
+            return valorA | valorB;
+        }
+
+        public bool OperacionOrBool(bool a, bool b)
+        {
+            return a || b;
+        }
     }
 }
