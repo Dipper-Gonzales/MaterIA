@@ -36,5 +36,54 @@ namespace MaterIA.Logica
 
             return resultado;
         }
+        public static string DecimalAHexadecimal(int numero)
+        {
+            if (numero == 0) return "0";
+
+            string digitos = "0123456789ABCDEF";
+            string resultado = "";
+
+            while (numero > 0)
+            {
+                int residuo = numero % 16;
+                resultado = digitos[residuo] + resultado;
+                numero = numero / 16;
+            }
+
+            return resultado;
+        }
+
+        // Hexadecimal -> Decimal
+        public static int HexadecimalADecimal(string hexadecimal)
+        {
+            string digitos = "0123456789ABCDEF";
+            hexadecimal = hexadecimal.ToUpper();
+
+            int resultado_decimal = 0;
+            int ultimoNumero = hexadecimal.Length - 1;
+
+            for (int i = 0; i <= ultimoNumero; i++)
+            {
+                char caracter = hexadecimal[ultimoNumero - i];
+                int valor = digitos.IndexOf(caracter);
+                resultado_decimal += valor * (int)Math.Pow(16, i);
+            }
+
+            return resultado_decimal;
+        }
+
+        // Binario -> Hexadecimal (reutiliza los dos anteriores)
+        public static string BinarioAHexadecimal(string binario)
+        {
+            int decimal_ = BinarioADecimal(binario);
+            return DecimalAHexadecimal(decimal_);
+        }
+
+        // Hexadecimal -> Binario (reutiliza los dos anteriores)
+        public static string HexadecimalABinario(string hexadecimal)
+        {
+            int decimal_ = HexadecimalADecimal(hexadecimal);
+            return DecimalABinario(decimal_);
+        }
     }
 }

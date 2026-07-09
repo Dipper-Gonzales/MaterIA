@@ -14,5 +14,17 @@ namespace MaterIA.Formularios
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormBinarioDecimal formulario = new FormBinarioDecimal();
+            formulario.ShowDialog();
+        }
+
+        private void buttonConjuntos_Click(object sender, EventArgs e)
+        {
+            FormConjuntos formulario = new FormConjuntos();
+            formulario.ShowDialog();
+        }
     }
 }

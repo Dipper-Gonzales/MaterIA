@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             button1 = new Button();
+            buttonConjuntos = new Button();
             SuspendLayout();
             // 
             // button1
@@ -39,12 +40,24 @@
             button1.TabIndex = 0;
             button1.Text = "Conversiones";
             button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
+            // buttonConjuntos
+            // 
+            buttonConjuntos.Location = new Point(197, 52);
+            buttonConjuntos.Name = "buttonConjuntos";
+            buttonConjuntos.Size = new Size(104, 53);
+            buttonConjuntos.TabIndex = 1;
+            buttonConjuntos.Text = "Conjuntos";
+            buttonConjuntos.UseVisualStyleBackColor = true;
+            buttonConjuntos.Click += buttonConjuntos_Click;
             // 
             // FormSistemasNumericos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonConjuntos);
             Controls.Add(button1);
             Name = "FormSistemasNumericos";
             Text = "FormSistemasNumericos";
@@ -54,5 +67,6 @@
         #endregion
 
         private Button button1;
+        private Button buttonConjuntos;
     }
 }
