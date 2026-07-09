@@ -53,6 +53,11 @@ namespace MaterIA.Formularios
             string resultado = MaterIA.Logica.ConversorBase.DecimalABinario(numero);
             labelResultado.Text = "Resultado: " + resultado;
         }
+
+        private void textEntrada_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
 

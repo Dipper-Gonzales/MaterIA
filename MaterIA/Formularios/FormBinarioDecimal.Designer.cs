@@ -50,6 +50,8 @@
             textEntrada.Name = "textEntrada";
             textEntrada.Size = new Size(100, 23);
             textEntrada.TabIndex = 1;
+            textEntrada.Text = "590";
+            textEntrada.TextChanged += textEntrada_TextChanged;
             // 
             // buttonBinarioDecimal
             // 

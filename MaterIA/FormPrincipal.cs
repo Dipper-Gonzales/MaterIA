@@ -22,5 +22,16 @@ namespace MaterIA
             FormSistemasNumericos formulario = new FormSistemasNumericos();
             formulario.Show();
         }
+
+        private void FormPrincipal_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            FrmMetodoConteo formulario = new FrmMetodoConteo();
+            formulario.Show();
+        }
     }
 }
