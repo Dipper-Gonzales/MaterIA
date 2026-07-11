@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             buttonConjuntos = new Button();
+            buttonCalculadora = new Button();
             SuspendLayout();
             // 
             // button1
@@ -52,11 +53,22 @@
             buttonConjuntos.UseVisualStyleBackColor = true;
             buttonConjuntos.Click += buttonConjuntos_Click;
             // 
+            // buttonCalculadora
+            // 
+            buttonCalculadora.Location = new Point(341, 52);
+            buttonCalculadora.Name = "buttonCalculadora";
+            buttonCalculadora.Size = new Size(104, 53);
+            buttonCalculadora.TabIndex = 2;
+            buttonCalculadora.Text = "Calculadora";
+            buttonCalculadora.UseVisualStyleBackColor = true;
+            buttonCalculadora.Click += button2_Click;
+            // 
             // FormSistemasNumericos
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonCalculadora);
             Controls.Add(buttonConjuntos);
             Controls.Add(button1);
             Name = "FormSistemasNumericos";
@@ -68,5 +80,6 @@
 
         private Button button1;
         private Button buttonConjuntos;
+        private Button buttonCalculadora;
     }
 }

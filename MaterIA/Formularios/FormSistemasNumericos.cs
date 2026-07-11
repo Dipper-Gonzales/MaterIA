@@ -26,5 +26,11 @@ namespace MaterIA.Formularios
             FormConjuntos formulario = new FormConjuntos();
             formulario.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            CalculadoraSisNumericos formulario = new CalculadoraSisNumericos();
+            formulario.ShowDialog();
+        }
     }
 }

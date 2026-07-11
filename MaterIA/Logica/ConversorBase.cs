@@ -85,5 +85,34 @@ namespace MaterIA.Logica
             int decimal_ = HexadecimalADecimal(hexadecimal);
             return DecimalABinario(decimal_);
         }
+        // Decimal -> Octal
+        public static string DecimalAOctal(int numero)
+        {
+            if (numero == 0) return "0";
+
+            string resultado = "";
+            while (numero > 0)
+            {
+                int residuo = numero % 8;
+                resultado = residuo.ToString() + resultado;
+                numero = numero / 8;
+            }
+            return resultado;
+        }
+
+        // Octal -> Decimal
+        public static int OctalADecimal(string octal)
+        {
+            int resultado_decimal = 0;
+            int ultimoNumero = octal.Length - 1;
+
+            for (int i = 0; i <= ultimoNumero; i++)
+            {
+                int valor = octal[ultimoNumero - i] - '0'; // convierte el char a su valor numérico
+                resultado_decimal += valor * (int)Math.Pow(8, i);
+            }
+
+            return resultado_decimal;
+        }
     }
 }

@@ -146,7 +146,7 @@
             listBoxResultado.FormattingEnabled = true;
             listBoxResultado.Location = new Point(559, 16);
             listBoxResultado.Name = "listBoxResultado";
-            listBoxResultado.Size = new Size(136, 124);
+            listBoxResultado.Size = new Size(136, 154);
             listBoxResultado.TabIndex = 11;
             // 
             // FormConjuntos
