@@ -32,6 +32,7 @@
             buttonConjuntos = new Button();
             buttonCalculadora = new Button();
             button2 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
@@ -77,11 +78,22 @@
             button2.UseVisualStyleBackColor = true;
             button2.Click += button2_Click_1;
             // 
+            // button3
+            // 
+            button3.Location = new Point(700, 91);
+            button3.Name = "button3";
+            button3.Size = new Size(165, 80);
+            button3.TabIndex = 4;
+            button3.Text = "Serie de taylor";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // FormSistemasNumericos
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1143, 750);
+            Controls.Add(button3);
             Controls.Add(button2);
             Controls.Add(buttonCalculadora);
             Controls.Add(buttonConjuntos);
@@ -98,5 +110,6 @@
         private Button buttonConjuntos;
         private Button buttonCalculadora;
         private Button button2;
+        private Button button3;
     }
 }
