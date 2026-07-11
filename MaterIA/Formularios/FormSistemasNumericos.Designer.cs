@@ -81,7 +81,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources._57b6fc6b90773858a3cc598965f898b2;
+            BackgroundImage = Properties.Resources.istockphoto_990787448_1024x1024;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1143, 659);
             Controls.Add(button2);
             Controls.Add(buttonCalculadora);
@@ -90,6 +91,7 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "FormSistemasNumericos";
             Text = "FormSistemasNumericos";
+            Load += FormSistemasNumericos_Load;
             ResumeLayout(false);
         }
 

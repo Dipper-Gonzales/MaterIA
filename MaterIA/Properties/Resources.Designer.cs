@@ -89,5 +89,35 @@ namespace MaterIA.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_990787448_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-990787448-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_kaplanart_8134609 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-kaplanart-8134609", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_prabhath_jayarathna_3459375_26873010 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-prabhath-jayarathna-3459375-26873010", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

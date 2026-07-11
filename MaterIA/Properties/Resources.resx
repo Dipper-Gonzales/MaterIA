@@ -118,13 +118,22 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cf3e80816da1274f7dd74eae2c487453" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cf3e80816da1274f7dd74eae2c487453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="c17a92cfcd8108005d42aa63d825bc16" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\c17a92cfcd8108005d42aa63d825bc16.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="pexels-prabhath-jayarathna-3459375-26873010" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-prabhath-jayarathna-3459375-26873010.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cf3e80816da1274f7dd74eae2c487453" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cf3e80816da1274f7dd74eae2c487453.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pexels-kaplanart-8134609" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pexels-kaplanart-8134609.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="57b6fc6b90773858a3cc598965f898b2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\57b6fc6b90773858a3cc598965f898b2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="istockphoto-990787448-1024x1024" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\istockphoto-990787448-1024x1024.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

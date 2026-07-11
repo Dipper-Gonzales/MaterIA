@@ -37,5 +37,10 @@ namespace MaterIA.Formularios
         {
             this.Close();
         }
+
+        private void FormSistemasNumericos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
