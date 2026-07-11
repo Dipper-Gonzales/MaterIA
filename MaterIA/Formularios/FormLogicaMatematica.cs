@@ -56,5 +56,16 @@ namespace MaterIA.Formularios
         {
             txtValorB.Text = "1";
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormTablaVerdadCompleta formTabla = new FormTablaVerdadCompleta();
+            formTabla.Show();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
