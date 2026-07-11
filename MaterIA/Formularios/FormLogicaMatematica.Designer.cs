@@ -38,11 +38,12 @@
             buttonpress1 = new Button();
             buttonpress0 = new Button();
             button3 = new Button();
+            button4 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(193, 238);
+            button1.Location = new Point(222, 285);
             button1.Name = "button1";
             button1.Size = new Size(80, 50);
             button1.TabIndex = 0;
@@ -52,7 +53,7 @@
             // 
             // txtValorA
             // 
-            txtValorA.Location = new Point(71, 40);
+            txtValorA.Location = new Point(73, 87);
             txtValorA.Name = "txtValorA";
             txtValorA.ReadOnly = true;
             txtValorA.Size = new Size(173, 31);
@@ -61,7 +62,7 @@
             // 
             // txtValorB
             // 
-            txtValorB.Location = new Point(71, 130);
+            txtValorB.Location = new Point(71, 198);
             txtValorB.Name = "txtValorB";
             txtValorB.Size = new Size(173, 31);
             txtValorB.TabIndex = 2;
@@ -70,7 +71,7 @@
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(524, 65);
+            lblResultado.Location = new Point(524, 87);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(94, 25);
             lblResultado.TabIndex = 3;
@@ -78,7 +79,7 @@
             // 
             // button2
             // 
-            button2.Location = new Point(71, 238);
+            button2.Location = new Point(71, 285);
             button2.Name = "button2";
             button2.Size = new Size(80, 50);
             button2.TabIndex = 4;
@@ -88,7 +89,7 @@
             // 
             // buttonpres1
             // 
-            buttonpres1.Location = new Point(310, 42);
+            buttonpres1.Location = new Point(319, 87);
             buttonpres1.Margin = new Padding(4, 5, 4, 5);
             buttonpres1.Name = "buttonpres1";
             buttonpres1.Size = new Size(49, 37);
@@ -99,7 +100,7 @@
             // 
             // buttonpres0
             // 
-            buttonpres0.Location = new Point(253, 42);
+            buttonpres0.Location = new Point(253, 87);
             buttonpres0.Margin = new Padding(4, 5, 4, 5);
             buttonpres0.Name = "buttonpres0";
             buttonpres0.Size = new Size(49, 37);
@@ -110,7 +111,7 @@
             // 
             // buttonpress1
             // 
-            buttonpress1.Location = new Point(310, 132);
+            buttonpress1.Location = new Point(319, 192);
             buttonpress1.Margin = new Padding(4, 5, 4, 5);
             buttonpress1.Name = "buttonpress1";
             buttonpress1.Size = new Size(49, 37);
@@ -121,7 +122,7 @@
             // 
             // buttonpress0
             // 
-            buttonpress0.Location = new Point(253, 132);
+            buttonpress0.Location = new Point(253, 192);
             buttonpress0.Margin = new Padding(4, 5, 4, 5);
             buttonpress0.Name = "buttonpress0";
             buttonpress0.Size = new Size(49, 37);
@@ -132,7 +133,7 @@
             // 
             // button3
             // 
-            button3.Location = new Point(727, 42);
+            button3.Location = new Point(731, 102);
             button3.Name = "button3";
             button3.Size = new Size(213, 127);
             button3.TabIndex = 9;
@@ -140,11 +141,22 @@
             button3.UseVisualStyleBackColor = true;
             button3.Click += button3_Click;
             // 
+            // button4
+            // 
+            button4.Location = new Point(12, 12);
+            button4.Name = "button4";
+            button4.Size = new Size(112, 34);
+            button4.TabIndex = 10;
+            button4.Text = "Regresar";
+            button4.UseVisualStyleBackColor = true;
+            button4.Click += button4_Click;
+            // 
             // FormLogicaMatematica
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1036, 547);
+            Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(buttonpress0);
             Controls.Add(buttonpress1);
@@ -173,5 +185,6 @@
         private Button buttonpress1;
         private Button buttonpress0;
         private Button button3;
+        private Button button4;
     }
 }

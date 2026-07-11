@@ -62,5 +62,10 @@ namespace MaterIA.Formularios
             FormTablaVerdadCompleta formTabla = new FormTablaVerdadCompleta();
             formTabla.Show();
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
