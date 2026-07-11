@@ -37,14 +37,14 @@
             buttonpres0 = new Button();
             buttonpress1 = new Button();
             buttonpress0 = new Button();
+            button3 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(135, 143);
-            button1.Margin = new Padding(2);
+            button1.Location = new Point(193, 238);
             button1.Name = "button1";
-            button1.Size = new Size(56, 30);
+            button1.Size = new Size(80, 50);
             button1.TabIndex = 0;
             button1.Text = "AND";
             button1.UseVisualStyleBackColor = true;
@@ -52,39 +52,35 @@
             // 
             // txtValorA
             // 
-            txtValorA.Location = new Point(50, 24);
-            txtValorA.Margin = new Padding(2);
+            txtValorA.Location = new Point(71, 40);
             txtValorA.Name = "txtValorA";
             txtValorA.ReadOnly = true;
-            txtValorA.Size = new Size(122, 23);
+            txtValorA.Size = new Size(173, 31);
             txtValorA.TabIndex = 1;
             txtValorA.Text = "Presione un numero";
             // 
             // txtValorB
             // 
-            txtValorB.Location = new Point(50, 78);
-            txtValorB.Margin = new Padding(2);
+            txtValorB.Location = new Point(71, 130);
             txtValorB.Name = "txtValorB";
-            txtValorB.Size = new Size(122, 23);
+            txtValorB.Size = new Size(173, 31);
             txtValorB.TabIndex = 2;
             txtValorB.Text = "Presione un numero";
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(367, 39);
-            lblResultado.Margin = new Padding(2, 0, 2, 0);
+            lblResultado.Location = new Point(524, 65);
             lblResultado.Name = "lblResultado";
-            lblResultado.Size = new Size(62, 15);
+            lblResultado.Size = new Size(94, 25);
             lblResultado.TabIndex = 3;
             lblResultado.Text = "Resultado:";
             // 
             // button2
             // 
-            button2.Location = new Point(50, 143);
-            button2.Margin = new Padding(2);
+            button2.Location = new Point(71, 238);
             button2.Name = "button2";
-            button2.Size = new Size(56, 30);
+            button2.Size = new Size(80, 50);
             button2.TabIndex = 4;
             button2.Text = "OR";
             button2.UseVisualStyleBackColor = true;
@@ -92,9 +88,10 @@
             // 
             // buttonpres1
             // 
-            buttonpres1.Location = new Point(217, 25);
+            buttonpres1.Location = new Point(310, 42);
+            buttonpres1.Margin = new Padding(4, 5, 4, 5);
             buttonpres1.Name = "buttonpres1";
-            buttonpres1.Size = new Size(34, 22);
+            buttonpres1.Size = new Size(49, 37);
             buttonpres1.TabIndex = 5;
             buttonpres1.Text = "1";
             buttonpres1.UseVisualStyleBackColor = true;
@@ -102,9 +99,10 @@
             // 
             // buttonpres0
             // 
-            buttonpres0.Location = new Point(177, 25);
+            buttonpres0.Location = new Point(253, 42);
+            buttonpres0.Margin = new Padding(4, 5, 4, 5);
             buttonpres0.Name = "buttonpres0";
-            buttonpres0.Size = new Size(34, 22);
+            buttonpres0.Size = new Size(49, 37);
             buttonpres0.TabIndex = 6;
             buttonpres0.Text = "0";
             buttonpres0.UseVisualStyleBackColor = true;
@@ -112,9 +110,10 @@
             // 
             // buttonpress1
             // 
-            buttonpress1.Location = new Point(217, 79);
+            buttonpress1.Location = new Point(310, 132);
+            buttonpress1.Margin = new Padding(4, 5, 4, 5);
             buttonpress1.Name = "buttonpress1";
-            buttonpress1.Size = new Size(34, 22);
+            buttonpress1.Size = new Size(49, 37);
             buttonpress1.TabIndex = 7;
             buttonpress1.Text = "1";
             buttonpress1.UseVisualStyleBackColor = true;
@@ -122,19 +121,31 @@
             // 
             // buttonpress0
             // 
-            buttonpress0.Location = new Point(177, 79);
+            buttonpress0.Location = new Point(253, 132);
+            buttonpress0.Margin = new Padding(4, 5, 4, 5);
             buttonpress0.Name = "buttonpress0";
-            buttonpress0.Size = new Size(34, 22);
+            buttonpress0.Size = new Size(49, 37);
             buttonpress0.TabIndex = 8;
             buttonpress0.Text = "0";
             buttonpress0.UseVisualStyleBackColor = true;
             buttonpress0.Click += buttonpress0_Click;
             // 
+            // button3
+            // 
+            button3.Location = new Point(727, 42);
+            button3.Name = "button3";
+            button3.Size = new Size(213, 127);
+            button3.TabIndex = 9;
+            button3.Text = "Mostrar tabla de verdad ";
+            button3.UseVisualStyleBackColor = true;
+            button3.Click += button3_Click;
+            // 
             // FormLogicaMatematica
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(725, 328);
+            ClientSize = new Size(1036, 547);
+            Controls.Add(button3);
             Controls.Add(buttonpress0);
             Controls.Add(buttonpress1);
             Controls.Add(buttonpres0);
@@ -144,7 +155,6 @@
             Controls.Add(txtValorB);
             Controls.Add(txtValorA);
             Controls.Add(button1);
-            Margin = new Padding(2);
             Name = "FormLogicaMatematica";
             Text = "FormLogicaMatematica";
             ResumeLayout(false);
@@ -162,5 +172,6 @@
         private Button buttonpres0;
         private Button buttonpress1;
         private Button buttonpress0;
+        private Button button3;
     }
 }
