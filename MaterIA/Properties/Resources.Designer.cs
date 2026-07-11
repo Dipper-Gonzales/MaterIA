@@ -63,6 +63,16 @@ namespace MaterIA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _57b6fc6b90773858a3cc598965f898b2 {
+            get {
+                object obj = ResourceManager.GetObject("57b6fc6b90773858a3cc598965f898b2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap c17a92cfcd8108005d42aa63d825bc16 {
             get {
                 object obj = ResourceManager.GetObject("c17a92cfcd8108005d42aa63d825bc16", resourceCulture);

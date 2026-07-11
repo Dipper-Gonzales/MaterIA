@@ -81,8 +81,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.c17a92cfcd8108005d42aa63d825bc16;
-            ClientSize = new Size(1143, 750);
+            BackgroundImage = Properties.Resources._57b6fc6b90773858a3cc598965f898b2;
+            ClientSize = new Size(1143, 659);
             Controls.Add(button2);
             Controls.Add(buttonCalculadora);
             Controls.Add(buttonConjuntos);
