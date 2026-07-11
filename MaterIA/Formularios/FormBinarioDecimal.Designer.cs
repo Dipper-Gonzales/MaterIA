@@ -30,70 +30,70 @@
         {
             labelTitulo = new Label();
             textEntrada = new TextBox();
-            buttonBinarioDecimal = new Button();
-            buttonDecimalBinario = new Button();
             labelResultado = new Label();
+            comboTipoConversion = new ComboBox();
+            buttonConvertir = new Button();
             SuspendLayout();
             // 
             // labelTitulo
             // 
             labelTitulo.AutoSize = true;
-            labelTitulo.Location = new Point(42, 26);
+            labelTitulo.Location = new Point(42, 28);
             labelTitulo.Name = "labelTitulo";
-            labelTitulo.Size = new Size(177, 15);
+            labelTitulo.Size = new Size(182, 15);
             labelTitulo.TabIndex = 0;
-            labelTitulo.Text = "Conversion Binario <-> Decimal";
+            labelTitulo.Text = "Introduzca su numero a convertir";
+            labelTitulo.Click += labelTitulo_Click;
             // 
             // textEntrada
             // 
-            textEntrada.Location = new Point(69, 56);
+            textEntrada.Location = new Point(42, 61);
             textEntrada.Name = "textEntrada";
-            textEntrada.Size = new Size(100, 23);
+            textEntrada.Size = new Size(178, 23);
             textEntrada.TabIndex = 1;
-            textEntrada.Text = "590";
             textEntrada.TextChanged += textEntrada_TextChanged;
-            // 
-            // buttonBinarioDecimal
-            // 
-            buttonBinarioDecimal.Location = new Point(246, 22);
-            buttonBinarioDecimal.Name = "buttonBinarioDecimal";
-            buttonBinarioDecimal.Size = new Size(225, 23);
-            buttonBinarioDecimal.TabIndex = 2;
-            buttonBinarioDecimal.Text = "Convertir Binario a Decimal";
-            buttonBinarioDecimal.UseVisualStyleBackColor = true;
-            buttonBinarioDecimal.Click += buttonBinarioDecimal_Click;
-            // 
-            // buttonDecimalBinario
-            // 
-            buttonDecimalBinario.Location = new Point(246, 56);
-            buttonDecimalBinario.Name = "buttonDecimalBinario";
-            buttonDecimalBinario.Size = new Size(225, 23);
-            buttonDecimalBinario.TabIndex = 3;
-            buttonDecimalBinario.Text = "Convertir Decimal a Binario";
-            buttonDecimalBinario.UseVisualStyleBackColor = true;
-            buttonDecimalBinario.Click += buttonDecimalBinario_Click;
             // 
             // labelResultado
             // 
             labelResultado.AutoSize = true;
-            labelResultado.Location = new Point(521, 44);
+            labelResultado.Location = new Point(42, 116);
             labelResultado.Name = "labelResultado";
-            labelResultado.Size = new Size(13, 15);
+            labelResultado.Size = new Size(65, 15);
             labelResultado.TabIndex = 4;
-            labelResultado.Text = "0";
+            labelResultado.Text = "Resultado: ";
+            // 
+            // comboTipoConversion
+            // 
+            comboTipoConversion.DropDownStyle = ComboBoxStyle.DropDownList;
+            comboTipoConversion.FormattingEnabled = true;
+            comboTipoConversion.Location = new Point(240, 61);
+            comboTipoConversion.Name = "comboTipoConversion";
+            comboTipoConversion.Size = new Size(206, 23);
+            comboTipoConversion.TabIndex = 5;
+            // 
+            // buttonConvertir
+            // 
+            buttonConvertir.Location = new Point(466, 61);
+            buttonConvertir.Name = "buttonConvertir";
+            buttonConvertir.Size = new Size(75, 23);
+            buttonConvertir.TabIndex = 6;
+            buttonConvertir.Text = "Convertir";
+            buttonConvertir.UseVisualStyleBackColor = true;
+            buttonConvertir.Click += buttonConvertir_Click;
             // 
             // FormBinarioDecimal
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(buttonConvertir);
+            Controls.Add(comboTipoConversion);
             Controls.Add(labelResultado);
-            Controls.Add(buttonDecimalBinario);
-            Controls.Add(buttonBinarioDecimal);
             Controls.Add(textEntrada);
             Controls.Add(labelTitulo);
             Name = "FormBinarioDecimal";
             Text = "FormBinarioDecimal";
+            Load += FormBinarioDecimal_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -102,8 +102,8 @@
 
         private Label labelTitulo;
         private TextBox textEntrada;
-        private Button buttonBinarioDecimal;
-        private Button buttonDecimalBinario;
         private Label labelResultado;
+        private ComboBox comboTipoConversion;
+        private Button buttonConvertir;
     }
 }
