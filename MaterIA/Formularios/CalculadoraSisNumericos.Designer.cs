@@ -58,7 +58,7 @@
             // 
             // txtPantalla
             // 
-            txtPantalla.Location = new Point(156, 22);
+            txtPantalla.Location = new Point(131, 22);
             txtPantalla.Margin = new Padding(4, 5, 4, 5);
             txtPantalla.Multiline = true;
             txtPantalla.Name = "txtPantalla";
