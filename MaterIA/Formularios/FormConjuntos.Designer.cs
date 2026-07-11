@@ -40,20 +40,23 @@
             btnInterseccion = new Button();
             btnProductoCartesiano = new Button();
             listBoxResultado = new ListBox();
+            button1 = new Button();
             SuspendLayout();
             // 
             // txtElementoA
             // 
-            txtElementoA.Location = new Point(39, 30);
+            txtElementoA.Location = new Point(56, 57);
+            txtElementoA.Margin = new Padding(4, 5, 4, 5);
             txtElementoA.Name = "txtElementoA";
-            txtElementoA.Size = new Size(100, 23);
+            txtElementoA.Size = new Size(141, 31);
             txtElementoA.TabIndex = 0;
             // 
             // btnAgregarA
             // 
-            btnAgregarA.Location = new Point(163, 16);
+            btnAgregarA.Location = new Point(233, 27);
+            btnAgregarA.Margin = new Padding(4, 5, 4, 5);
             btnAgregarA.Name = "btnAgregarA";
-            btnAgregarA.Size = new Size(84, 48);
+            btnAgregarA.Size = new Size(120, 80);
             btnAgregarA.TabIndex = 1;
             btnAgregarA.Text = "Agregar al conjunto A";
             btnAgregarA.UseVisualStyleBackColor = true;
@@ -62,23 +65,26 @@
             // listBoxA
             // 
             listBoxA.FormattingEnabled = true;
-            listBoxA.Location = new Point(274, 16);
+            listBoxA.Location = new Point(391, 27);
+            listBoxA.Margin = new Padding(4, 5, 4, 5);
             listBoxA.Name = "listBoxA";
-            listBoxA.Size = new Size(120, 94);
+            listBoxA.Size = new Size(170, 154);
             listBoxA.TabIndex = 2;
             // 
             // txtElementoB
             // 
-            txtElementoB.Location = new Point(39, 155);
+            txtElementoB.Location = new Point(56, 258);
+            txtElementoB.Margin = new Padding(4, 5, 4, 5);
             txtElementoB.Name = "txtElementoB";
-            txtElementoB.Size = new Size(100, 23);
+            txtElementoB.Size = new Size(141, 31);
             txtElementoB.TabIndex = 3;
             // 
             // btnAgregarB
             // 
-            btnAgregarB.Location = new Point(163, 155);
+            btnAgregarB.Location = new Point(233, 258);
+            btnAgregarB.Margin = new Padding(4, 5, 4, 5);
             btnAgregarB.Name = "btnAgregarB";
-            btnAgregarB.Size = new Size(84, 48);
+            btnAgregarB.Size = new Size(120, 80);
             btnAgregarB.TabIndex = 4;
             btnAgregarB.Text = "Agregar al conjunto B";
             btnAgregarB.UseVisualStyleBackColor = true;
@@ -87,16 +93,18 @@
             // listBoxB
             // 
             listBoxB.FormattingEnabled = true;
-            listBoxB.Location = new Point(274, 155);
+            listBoxB.Location = new Point(391, 258);
+            listBoxB.Margin = new Padding(4, 5, 4, 5);
             listBoxB.Name = "listBoxB";
-            listBoxB.Size = new Size(120, 94);
+            listBoxB.Size = new Size(170, 154);
             listBoxB.TabIndex = 5;
             // 
             // btnUnion
             // 
-            btnUnion.Location = new Point(441, 51);
+            btnUnion.Location = new Point(630, 85);
+            btnUnion.Margin = new Padding(4, 5, 4, 5);
             btnUnion.Name = "btnUnion";
-            btnUnion.Size = new Size(83, 23);
+            btnUnion.Size = new Size(119, 38);
             btnUnion.TabIndex = 6;
             btnUnion.Text = "Union";
             btnUnion.UseVisualStyleBackColor = true;
@@ -105,17 +113,19 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(441, 16);
+            label1.Location = new Point(630, 27);
+            label1.Margin = new Padding(4, 0, 4, 0);
             label1.Name = "label1";
-            label1.Size = new Size(73, 15);
+            label1.Size = new Size(111, 25);
             label1.TabIndex = 7;
             label1.Text = "Operaciones";
             // 
             // btnDiferencia
             // 
-            btnDiferencia.Location = new Point(441, 80);
+            btnDiferencia.Location = new Point(630, 133);
+            btnDiferencia.Margin = new Padding(4, 5, 4, 5);
             btnDiferencia.Name = "btnDiferencia";
-            btnDiferencia.Size = new Size(83, 23);
+            btnDiferencia.Size = new Size(119, 38);
             btnDiferencia.TabIndex = 8;
             btnDiferencia.Text = "Diferencia";
             btnDiferencia.UseVisualStyleBackColor = true;
@@ -123,9 +133,10 @@
             // 
             // btnInterseccion
             // 
-            btnInterseccion.Location = new Point(441, 109);
+            btnInterseccion.Location = new Point(630, 182);
+            btnInterseccion.Margin = new Padding(4, 5, 4, 5);
             btnInterseccion.Name = "btnInterseccion";
-            btnInterseccion.Size = new Size(83, 23);
+            btnInterseccion.Size = new Size(119, 38);
             btnInterseccion.TabIndex = 9;
             btnInterseccion.Text = "Interseccion";
             btnInterseccion.UseVisualStyleBackColor = true;
@@ -133,9 +144,10 @@
             // 
             // btnProductoCartesiano
             // 
-            btnProductoCartesiano.Location = new Point(441, 138);
+            btnProductoCartesiano.Location = new Point(630, 230);
+            btnProductoCartesiano.Margin = new Padding(4, 5, 4, 5);
             btnProductoCartesiano.Name = "btnProductoCartesiano";
-            btnProductoCartesiano.Size = new Size(83, 23);
+            btnProductoCartesiano.Size = new Size(119, 38);
             btnProductoCartesiano.TabIndex = 10;
             btnProductoCartesiano.Text = "Producto";
             btnProductoCartesiano.UseVisualStyleBackColor = true;
@@ -144,16 +156,29 @@
             // listBoxResultado
             // 
             listBoxResultado.FormattingEnabled = true;
-            listBoxResultado.Location = new Point(559, 16);
+            listBoxResultado.Location = new Point(799, 27);
+            listBoxResultado.Margin = new Padding(4, 5, 4, 5);
             listBoxResultado.Name = "listBoxResultado";
-            listBoxResultado.Size = new Size(136, 154);
+            listBoxResultado.Size = new Size(193, 254);
             listBoxResultado.TabIndex = 11;
+            // 
+            // button1
+            // 
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(96, 37);
+            button1.TabIndex = 12;
+            button1.Text = "Regresar";
+            button1.TextAlign = ContentAlignment.TopRight;
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
             // 
             // FormConjuntos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
+            Controls.Add(button1);
             Controls.Add(listBoxResultado);
             Controls.Add(btnProductoCartesiano);
             Controls.Add(btnInterseccion);
@@ -166,6 +191,7 @@
             Controls.Add(listBoxA);
             Controls.Add(btnAgregarA);
             Controls.Add(txtElementoA);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormConjuntos";
             Text = "FormConjuntos";
             ResumeLayout(false);
@@ -186,5 +212,6 @@
         private Button btnInterseccion;
         private Button btnProductoCartesiano;
         private ListBox listBoxResultado;
+        private Button button1;
     }
 }

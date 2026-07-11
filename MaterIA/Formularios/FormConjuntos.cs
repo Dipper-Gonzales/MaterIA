@@ -92,5 +92,10 @@ namespace MaterIA.Formularios
             List<string> resultado = ConjuntosLogica.ProductoCartesiano(conjuntoA, conjuntoB);
             MostrarResultado(resultado);
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

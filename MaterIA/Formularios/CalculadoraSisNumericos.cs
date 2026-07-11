@@ -125,5 +125,10 @@ namespace MaterIA.Formularios
             operadorPendiente = "";
             esperandoNuevoNumero = true;
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

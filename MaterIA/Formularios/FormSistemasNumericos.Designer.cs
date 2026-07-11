@@ -31,13 +31,15 @@
             button1 = new Button();
             buttonConjuntos = new Button();
             buttonCalculadora = new Button();
+            button2 = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(54, 52);
+            button1.Location = new Point(77, 87);
+            button1.Margin = new Padding(4, 5, 4, 5);
             button1.Name = "button1";
-            button1.Size = new Size(104, 53);
+            button1.Size = new Size(149, 88);
             button1.TabIndex = 0;
             button1.Text = "Conversiones";
             button1.UseVisualStyleBackColor = true;
@@ -45,9 +47,10 @@
             // 
             // buttonConjuntos
             // 
-            buttonConjuntos.Location = new Point(197, 52);
+            buttonConjuntos.Location = new Point(281, 87);
+            buttonConjuntos.Margin = new Padding(4, 5, 4, 5);
             buttonConjuntos.Name = "buttonConjuntos";
-            buttonConjuntos.Size = new Size(104, 53);
+            buttonConjuntos.Size = new Size(149, 88);
             buttonConjuntos.TabIndex = 1;
             buttonConjuntos.Text = "Conjuntos";
             buttonConjuntos.UseVisualStyleBackColor = true;
@@ -55,22 +58,35 @@
             // 
             // buttonCalculadora
             // 
-            buttonCalculadora.Location = new Point(341, 52);
+            buttonCalculadora.Location = new Point(487, 87);
+            buttonCalculadora.Margin = new Padding(4, 5, 4, 5);
             buttonCalculadora.Name = "buttonCalculadora";
-            buttonCalculadora.Size = new Size(104, 53);
+            buttonCalculadora.Size = new Size(149, 88);
             buttonCalculadora.TabIndex = 2;
             buttonCalculadora.Text = "Calculadora";
             buttonCalculadora.UseVisualStyleBackColor = true;
             buttonCalculadora.Click += button2_Click;
             // 
+            // button2
+            // 
+            button2.Location = new Point(12, 12);
+            button2.Name = "button2";
+            button2.Size = new Size(112, 34);
+            button2.TabIndex = 3;
+            button2.Text = "Regresar";
+            button2.UseVisualStyleBackColor = true;
+            button2.Click += button2_Click_1;
+            // 
             // FormSistemasNumericos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
+            Controls.Add(button2);
             Controls.Add(buttonCalculadora);
             Controls.Add(buttonConjuntos);
             Controls.Add(button1);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FormSistemasNumericos";
             Text = "FormSistemasNumericos";
             ResumeLayout(false);
@@ -81,5 +97,6 @@
         private Button button1;
         private Button buttonConjuntos;
         private Button buttonCalculadora;
+        private Button button2;
     }
 }

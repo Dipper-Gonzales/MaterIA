@@ -106,7 +106,7 @@ namespace MaterIA.Formularios
                 labelResultado.Text = "Error: valor numérico inválido";
             }
         }
-    private bool EsBinarioValido(string texto)
+        private bool EsBinarioValido(string texto)
         {
             foreach (char c in texto)
             {
@@ -123,6 +123,11 @@ namespace MaterIA.Formularios
                 if (!digitosValidos.Contains(c)) return false;
             }
             return true;
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

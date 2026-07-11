@@ -53,22 +53,25 @@
             btnIgual = new Button();
             btnLimpiar = new Button();
             btnBorrarTodo = new Button();
+            button1 = new Button();
             SuspendLayout();
             // 
             // txtPantalla
             // 
-            txtPantalla.Location = new Point(75, 12);
+            txtPantalla.Location = new Point(156, 22);
+            txtPantalla.Margin = new Padding(4, 5, 4, 5);
             txtPantalla.Multiline = true;
             txtPantalla.Name = "txtPantalla";
             txtPantalla.ReadOnly = true;
-            txtPantalla.Size = new Size(258, 71);
+            txtPantalla.Size = new Size(367, 116);
             txtPantalla.TabIndex = 0;
             // 
             // btn7
             // 
-            btn7.Location = new Point(75, 116);
+            btn7.Location = new Point(107, 193);
+            btn7.Margin = new Padding(4, 5, 4, 5);
             btn7.Name = "btn7";
-            btn7.Size = new Size(41, 39);
+            btn7.Size = new Size(59, 65);
             btn7.TabIndex = 1;
             btn7.Text = "7";
             btn7.UseVisualStyleBackColor = true;
@@ -76,9 +79,10 @@
             // 
             // btn8
             // 
-            btn8.Location = new Point(122, 116);
+            btn8.Location = new Point(174, 193);
+            btn8.Margin = new Padding(4, 5, 4, 5);
             btn8.Name = "btn8";
-            btn8.Size = new Size(41, 39);
+            btn8.Size = new Size(59, 65);
             btn8.TabIndex = 2;
             btn8.Text = "8";
             btn8.UseVisualStyleBackColor = true;
@@ -86,9 +90,10 @@
             // 
             // btn9
             // 
-            btn9.Location = new Point(169, 116);
+            btn9.Location = new Point(241, 193);
+            btn9.Margin = new Padding(4, 5, 4, 5);
             btn9.Name = "btn9";
-            btn9.Size = new Size(41, 39);
+            btn9.Size = new Size(59, 65);
             btn9.TabIndex = 3;
             btn9.Text = "9";
             btn9.UseVisualStyleBackColor = true;
@@ -96,9 +101,10 @@
             // 
             // btn4
             // 
-            btn4.Location = new Point(75, 175);
+            btn4.Location = new Point(107, 292);
+            btn4.Margin = new Padding(4, 5, 4, 5);
             btn4.Name = "btn4";
-            btn4.Size = new Size(41, 39);
+            btn4.Size = new Size(59, 65);
             btn4.TabIndex = 4;
             btn4.Text = "4";
             btn4.UseVisualStyleBackColor = true;
@@ -106,9 +112,10 @@
             // 
             // btn5
             // 
-            btn5.Location = new Point(122, 175);
+            btn5.Location = new Point(174, 292);
+            btn5.Margin = new Padding(4, 5, 4, 5);
             btn5.Name = "btn5";
-            btn5.Size = new Size(41, 39);
+            btn5.Size = new Size(59, 65);
             btn5.TabIndex = 5;
             btn5.Text = "5";
             btn5.UseVisualStyleBackColor = true;
@@ -116,9 +123,10 @@
             // 
             // btn6
             // 
-            btn6.Location = new Point(169, 175);
+            btn6.Location = new Point(241, 292);
+            btn6.Margin = new Padding(4, 5, 4, 5);
             btn6.Name = "btn6";
-            btn6.Size = new Size(41, 39);
+            btn6.Size = new Size(59, 65);
             btn6.TabIndex = 6;
             btn6.Text = "6";
             btn6.UseVisualStyleBackColor = true;
@@ -126,9 +134,10 @@
             // 
             // btn1
             // 
-            btn1.Location = new Point(75, 230);
+            btn1.Location = new Point(107, 383);
+            btn1.Margin = new Padding(4, 5, 4, 5);
             btn1.Name = "btn1";
-            btn1.Size = new Size(41, 39);
+            btn1.Size = new Size(59, 65);
             btn1.TabIndex = 7;
             btn1.Text = "1";
             btn1.UseVisualStyleBackColor = true;
@@ -136,9 +145,10 @@
             // 
             // btn2
             // 
-            btn2.Location = new Point(122, 230);
+            btn2.Location = new Point(174, 383);
+            btn2.Margin = new Padding(4, 5, 4, 5);
             btn2.Name = "btn2";
-            btn2.Size = new Size(41, 39);
+            btn2.Size = new Size(59, 65);
             btn2.TabIndex = 8;
             btn2.Text = "2";
             btn2.UseVisualStyleBackColor = true;
@@ -146,9 +156,10 @@
             // 
             // btn3
             // 
-            btn3.Location = new Point(169, 230);
+            btn3.Location = new Point(241, 383);
+            btn3.Margin = new Padding(4, 5, 4, 5);
             btn3.Name = "btn3";
-            btn3.Size = new Size(41, 39);
+            btn3.Size = new Size(59, 65);
             btn3.TabIndex = 9;
             btn3.Text = "3";
             btn3.UseVisualStyleBackColor = true;
@@ -156,9 +167,10 @@
             // 
             // btn0
             // 
-            btn0.Location = new Point(75, 284);
+            btn0.Location = new Point(107, 473);
+            btn0.Margin = new Padding(4, 5, 4, 5);
             btn0.Name = "btn0";
-            btn0.Size = new Size(41, 39);
+            btn0.Size = new Size(59, 65);
             btn0.TabIndex = 10;
             btn0.Text = "0";
             btn0.UseVisualStyleBackColor = true;
@@ -166,9 +178,10 @@
             // 
             // btnSuma
             // 
-            btnSuma.Location = new Point(325, 116);
+            btnSuma.Location = new Point(464, 193);
+            btnSuma.Margin = new Padding(4, 5, 4, 5);
             btnSuma.Name = "btnSuma";
-            btnSuma.Size = new Size(41, 39);
+            btnSuma.Size = new Size(59, 65);
             btnSuma.TabIndex = 11;
             btnSuma.Text = "+";
             btnSuma.UseVisualStyleBackColor = true;
@@ -176,9 +189,10 @@
             // 
             // btnResta
             // 
-            btnResta.Location = new Point(325, 175);
+            btnResta.Location = new Point(464, 292);
+            btnResta.Margin = new Padding(4, 5, 4, 5);
             btnResta.Name = "btnResta";
-            btnResta.Size = new Size(41, 39);
+            btnResta.Size = new Size(59, 65);
             btnResta.TabIndex = 12;
             btnResta.Text = "-";
             btnResta.UseVisualStyleBackColor = true;
@@ -186,9 +200,10 @@
             // 
             // A
             // 
-            A.Location = new Point(222, 116);
+            A.Location = new Point(317, 193);
+            A.Margin = new Padding(4, 5, 4, 5);
             A.Name = "A";
-            A.Size = new Size(41, 39);
+            A.Size = new Size(59, 65);
             A.TabIndex = 13;
             A.Text = "A";
             A.UseVisualStyleBackColor = true;
@@ -196,9 +211,10 @@
             // 
             // B
             // 
-            B.Location = new Point(222, 175);
+            B.Location = new Point(317, 292);
+            B.Margin = new Padding(4, 5, 4, 5);
             B.Name = "B";
-            B.Size = new Size(41, 39);
+            B.Size = new Size(59, 65);
             B.TabIndex = 14;
             B.Text = "B";
             B.UseVisualStyleBackColor = true;
@@ -206,9 +222,10 @@
             // 
             // C
             // 
-            C.Location = new Point(222, 230);
+            C.Location = new Point(317, 383);
+            C.Margin = new Padding(4, 5, 4, 5);
             C.Name = "C";
-            C.Size = new Size(41, 39);
+            C.Size = new Size(59, 65);
             C.TabIndex = 15;
             C.Text = "C";
             C.UseVisualStyleBackColor = true;
@@ -216,9 +233,10 @@
             // 
             // D
             // 
-            D.Location = new Point(269, 230);
+            D.Location = new Point(384, 383);
+            D.Margin = new Padding(4, 5, 4, 5);
             D.Name = "D";
-            D.Size = new Size(41, 39);
+            D.Size = new Size(59, 65);
             D.TabIndex = 16;
             D.Text = "D";
             D.UseVisualStyleBackColor = true;
@@ -226,9 +244,10 @@
             // 
             // E
             // 
-            E.Location = new Point(269, 116);
+            E.Location = new Point(384, 193);
+            E.Margin = new Padding(4, 5, 4, 5);
             E.Name = "E";
-            E.Size = new Size(41, 39);
+            E.Size = new Size(59, 65);
             E.TabIndex = 17;
             E.Text = "E";
             E.UseVisualStyleBackColor = true;
@@ -236,9 +255,10 @@
             // 
             // F
             // 
-            F.Location = new Point(269, 175);
+            F.Location = new Point(384, 292);
+            F.Margin = new Padding(4, 5, 4, 5);
             F.Name = "F";
-            F.Size = new Size(41, 39);
+            F.Size = new Size(59, 65);
             F.TabIndex = 18;
             F.Text = "F";
             F.UseVisualStyleBackColor = true;
@@ -246,9 +266,10 @@
             // 
             // btnMultiplicar
             // 
-            btnMultiplicar.Location = new Point(325, 230);
+            btnMultiplicar.Location = new Point(464, 383);
+            btnMultiplicar.Margin = new Padding(4, 5, 4, 5);
             btnMultiplicar.Name = "btnMultiplicar";
-            btnMultiplicar.Size = new Size(41, 39);
+            btnMultiplicar.Size = new Size(59, 65);
             btnMultiplicar.TabIndex = 19;
             btnMultiplicar.Text = "*";
             btnMultiplicar.UseVisualStyleBackColor = true;
@@ -256,9 +277,10 @@
             // 
             // btnDividir
             // 
-            btnDividir.Location = new Point(325, 284);
+            btnDividir.Location = new Point(464, 473);
+            btnDividir.Margin = new Padding(4, 5, 4, 5);
             btnDividir.Name = "btnDividir";
-            btnDividir.Size = new Size(41, 39);
+            btnDividir.Size = new Size(59, 65);
             btnDividir.TabIndex = 20;
             btnDividir.Text = "/";
             btnDividir.UseVisualStyleBackColor = true;
@@ -268,17 +290,19 @@
             // 
             comboBase.DropDownStyle = ComboBoxStyle.DropDownList;
             comboBase.FormattingEnabled = true;
-            comboBase.Location = new Point(75, 89);
+            comboBase.Location = new Point(107, 148);
+            comboBase.Margin = new Padding(4, 5, 4, 5);
             comboBase.Name = "comboBase";
-            comboBase.Size = new Size(258, 23);
+            comboBase.Size = new Size(367, 33);
             comboBase.TabIndex = 21;
             comboBase.SelectedIndexChanged += comboBox1_SelectedIndexChanged;
             // 
             // btnIgual
             // 
-            btnIgual.Location = new Point(384, 284);
+            btnIgual.Location = new Point(549, 473);
+            btnIgual.Margin = new Padding(4, 5, 4, 5);
             btnIgual.Name = "btnIgual";
-            btnIgual.Size = new Size(41, 39);
+            btnIgual.Size = new Size(59, 65);
             btnIgual.TabIndex = 22;
             btnIgual.Text = "=";
             btnIgual.UseVisualStyleBackColor = true;
@@ -286,28 +310,41 @@
             // 
             // btnLimpiar
             // 
-            btnLimpiar.Location = new Point(169, 284);
+            btnLimpiar.Location = new Point(241, 473);
+            btnLimpiar.Margin = new Padding(4, 5, 4, 5);
             btnLimpiar.Name = "btnLimpiar";
-            btnLimpiar.Size = new Size(55, 39);
+            btnLimpiar.Size = new Size(79, 65);
             btnLimpiar.TabIndex = 23;
             btnLimpiar.Text = "Limpiar";
             btnLimpiar.UseVisualStyleBackColor = true;
             // 
             // btnBorrarTodo
             // 
-            btnBorrarTodo.Location = new Point(122, 284);
+            btnBorrarTodo.Location = new Point(174, 473);
+            btnBorrarTodo.Margin = new Padding(4, 5, 4, 5);
             btnBorrarTodo.Name = "btnBorrarTodo";
-            btnBorrarTodo.Size = new Size(41, 39);
+            btnBorrarTodo.Size = new Size(59, 65);
             btnBorrarTodo.TabIndex = 24;
             btnBorrarTodo.Text = "AC";
             btnBorrarTodo.UseVisualStyleBackColor = true;
             btnBorrarTodo.Click += btnBorrarTodo_Click;
             // 
+            // button1
+            // 
+            button1.Location = new Point(12, 12);
+            button1.Name = "button1";
+            button1.Size = new Size(112, 34);
+            button1.TabIndex = 25;
+            button1.Text = "Regresar";
+            button1.UseVisualStyleBackColor = true;
+            button1.Click += button1_Click;
+            // 
             // CalculadoraSisNumericos
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1143, 750);
+            Controls.Add(button1);
             Controls.Add(btnBorrarTodo);
             Controls.Add(btnLimpiar);
             Controls.Add(btnIgual);
@@ -333,6 +370,7 @@
             Controls.Add(btn8);
             Controls.Add(btn7);
             Controls.Add(txtPantalla);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "CalculadoraSisNumericos";
             Text = "CalculadoraSisNumericos";
             Load += CalculadoraSisNumericos_Load;
@@ -367,5 +405,6 @@
         private Button btnIgual;
         private Button btnLimpiar;
         private Button btnBorrarTodo;
+        private Button button1;
     }
 }
