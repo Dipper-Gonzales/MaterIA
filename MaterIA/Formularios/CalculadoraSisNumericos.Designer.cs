@@ -343,6 +343,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.pexels_kaplanart_8134609;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1143, 750);
             Controls.Add(button1);
             Controls.Add(btnBorrarTodo);

@@ -59,5 +59,65 @@ namespace MaterIA.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _57b6fc6b90773858a3cc598965f898b2 {
+            get {
+                object obj = ResourceManager.GetObject("57b6fc6b90773858a3cc598965f898b2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c17a92cfcd8108005d42aa63d825bc16 {
+            get {
+                object obj = ResourceManager.GetObject("c17a92cfcd8108005d42aa63d825bc16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cf3e80816da1274f7dd74eae2c487453 {
+            get {
+                object obj = ResourceManager.GetObject("cf3e80816da1274f7dd74eae2c487453", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_990787448_1024x1024 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-990787448-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_kaplanart_8134609 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-kaplanart-8134609", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_prabhath_jayarathna_3459375_26873010 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-prabhath-jayarathna-3459375-26873010", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

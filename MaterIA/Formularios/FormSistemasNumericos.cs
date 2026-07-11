@@ -43,5 +43,9 @@ namespace MaterIA.Formularios
             FormSerieDeTaylor formulario = new FormSerieDeTaylor();
             formulario.ShowDialog();
         }
+        private void FormSistemasNumericos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

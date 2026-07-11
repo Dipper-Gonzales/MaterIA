@@ -164,10 +164,10 @@
             // 
             // pictureBox6
             // 
-            pictureBox6.Location = new Point(811, 355);
+            pictureBox6.Location = new Point(843, 439);
             pictureBox6.Margin = new Padding(4, 5, 4, 5);
             pictureBox6.Name = "pictureBox6";
-            pictureBox6.Size = new Size(260, 242);
+            pictureBox6.Size = new Size(186, 83);
             pictureBox6.TabIndex = 9;
             pictureBox6.TabStop = false;
             pictureBox6.Click += pictureBox6_Click;

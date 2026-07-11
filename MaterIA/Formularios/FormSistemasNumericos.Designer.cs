@@ -92,6 +92,8 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = Properties.Resources.istockphoto_990787448_1024x1024;
+            BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1143, 750);
             Controls.Add(button3);
             Controls.Add(button2);
@@ -101,6 +103,7 @@
             Margin = new Padding(4, 5, 4, 5);
             Name = "FormSistemasNumericos";
             Text = "FormSistemasNumericos";
+            Load += FormSistemasNumericos_Load;
             ResumeLayout(false);
         }
 
