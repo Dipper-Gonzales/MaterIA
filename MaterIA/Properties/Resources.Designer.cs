@@ -59,5 +59,25 @@ namespace MaterIA.Properties {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap c17a92cfcd8108005d42aa63d825bc16 {
+            get {
+                object obj = ResourceManager.GetObject("c17a92cfcd8108005d42aa63d825bc16", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cf3e80816da1274f7dd74eae2c487453 {
+            get {
+                object obj = ResourceManager.GetObject("cf3e80816da1274f7dd74eae2c487453", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
