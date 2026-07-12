@@ -25,5 +25,27 @@ namespace MaterIA.Formularios
             FrmPermutaciones formulario = new FrmPermutaciones();
             formulario.Show();
         }
+
+        private void btnCombinaciones_Click(object sender, EventArgs e)
+        {
+            FormCombinaciones formulario = new FormCombinaciones();
+            formulario.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnVariaciones_Click(object sender, EventArgs e)
+        {
+            FormVariaciones formulario = new FormVariaciones();
+            formulario.Show();
+        }
     }
 }
