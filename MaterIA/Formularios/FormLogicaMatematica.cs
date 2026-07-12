@@ -67,5 +67,9 @@ namespace MaterIA.Formularios
         {
             this.Close();
         }
+
+        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
+        {
+                    }
     }
 }
