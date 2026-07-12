@@ -38,6 +38,11 @@ namespace MaterIA.Formularios
             this.Close();
         }
 
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FormSerieDeTaylor formulario = new FormSerieDeTaylor();
+            formulario.ShowDialog();
+        }
         private void FormSistemasNumericos_Load(object sender, EventArgs e)
         {
 

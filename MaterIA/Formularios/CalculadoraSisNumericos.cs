@@ -26,7 +26,7 @@ namespace MaterIA.Formularios
             comboBase.Items.Add("Octal");
             comboBase.Items.Add("Decimal");
             comboBase.Items.Add("Hexadecimal");
-            comboBase.SelectedIndex = 2; // Decimal por defecto
+            comboBase.SelectedIndex = 2;
 
             txtPantalla.Text = "0";
             ActualizarBotonesDisponibles();

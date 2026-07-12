@@ -170,6 +170,7 @@
             pictureBox6.Size = new Size(186, 83);
             pictureBox6.TabIndex = 9;
             pictureBox6.TabStop = false;
+            pictureBox6.Click += pictureBox6_Click;
             // 
             // FormPrincipal
             // 
