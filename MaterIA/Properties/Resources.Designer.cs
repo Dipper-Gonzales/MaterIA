@@ -119,5 +119,15 @@ namespace MaterIA.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_the_six_2148199655_33158875 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-the-six-2148199655-33158875", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
