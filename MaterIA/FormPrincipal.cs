@@ -44,5 +44,10 @@ namespace MaterIA
             FormRelacionesRecurrencia formulario = new FormRelacionesRecurrencia();
             formulario.Show();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
