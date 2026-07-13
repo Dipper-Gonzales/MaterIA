@@ -36,10 +36,10 @@
             // dgvTablaVerdad
             // 
             dgvTablaVerdad.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dgvTablaVerdad.Location = new Point(188, 90);
+            dgvTablaVerdad.Location = new Point(106, 101);
             dgvTablaVerdad.Name = "dgvTablaVerdad";
             dgvTablaVerdad.RowHeadersWidth = 62;
-            dgvTablaVerdad.Size = new Size(510, 333);
+            dgvTablaVerdad.Size = new Size(987, 435);
             dgvTablaVerdad.TabIndex = 0;
             dgvTablaVerdad.CellContentClick += dgvTablaVerdad_CellContentClick;
             // 
@@ -57,7 +57,7 @@
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(1216, 733);
             Controls.Add(button1);
             Controls.Add(dgvTablaVerdad);
             Name = "FormTablaVerdadCompleta";
