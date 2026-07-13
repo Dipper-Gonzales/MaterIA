@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRelacionesRecurrencia));
             btnrelaciones1 = new Button();
             btnrelaciones2 = new Button();
             button1 = new Button();
@@ -41,7 +42,7 @@
             btnrelaciones1.Size = new Size(139, 93);
             btnrelaciones1.TabIndex = 0;
             btnrelaciones1.Text = "Relaciones de recurrencia 1";
-            btnrelaciones1.UseVisualStyleBackColor = true;
+            btnrelaciones1.UseVisualStyleBackColor = false;
             btnrelaciones1.Click += btnrelaciones1_Click;
             // 
             // btnrelaciones2
@@ -52,7 +53,7 @@
             btnrelaciones2.Size = new Size(139, 93);
             btnrelaciones2.TabIndex = 1;
             btnrelaciones2.Text = "Relaciones de recurrencia 2";
-            btnrelaciones2.UseVisualStyleBackColor = true;
+            btnrelaciones2.UseVisualStyleBackColor = false;
             btnrelaciones2.Click += btnrelaciones2_Click;
             // 
             // button1
