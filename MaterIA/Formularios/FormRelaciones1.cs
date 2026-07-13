@@ -24,7 +24,7 @@ namespace MaterIA.Formularios
             comboTipo.SelectedIndex = 0;
             ActualizarCamposVisibles();
         }
-       
+
         private void ActualizarCamposVisibles()
         {
             bool usaDosTerminos = (comboTipo.SelectedIndex == 1);
@@ -68,6 +68,11 @@ namespace MaterIA.Formularios
         private void comboTipo_SelectedIndexChanged_1(object sender, EventArgs e)
         {
             ActualizarCamposVisibles();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }
