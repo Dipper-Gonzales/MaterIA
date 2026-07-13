@@ -34,6 +34,7 @@
             button1 = new Button();
             label2 = new Label();
             lblResultado = new Label();
+            btnregresar = new Button();
             SuspendLayout();
             // 
             // label1
@@ -84,13 +85,24 @@
             lblResultado.TabIndex = 4;
             lblResultado.Text = "0";
             // 
+            // btnregresar
+            // 
+            btnregresar.BackColor = SystemColors.WindowFrame;
+            btnregresar.Location = new Point(41, 25);
+            btnregresar.Name = "btnregresar";
+            btnregresar.Size = new Size(118, 26);
+            btnregresar.TabIndex = 5;
+            btnregresar.Text = "regresar";
+            btnregresar.UseVisualStyleBackColor = false;
+            // 
             // FrmPermutaciones
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(762, 450);
+            ClientSize = new Size(806, 450);
+            Controls.Add(btnregresar);
             Controls.Add(lblResultado);
             Controls.Add(label2);
             Controls.Add(button1);
@@ -98,6 +110,7 @@
             Controls.Add(label1);
             Name = "FrmPermutaciones";
             Text = "FrmPermutaciones";
+            Load += FrmPermutaciones_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -109,5 +122,6 @@
         private Button button1;
         private Label label2;
         private Label lblResultado;
+        private Button btnregresar;
     }
 }

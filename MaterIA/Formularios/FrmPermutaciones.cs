@@ -42,5 +42,10 @@ namespace MaterIA.Formularios
         {
 
         }
+
+        private void FrmPermutaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
