@@ -28,34 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormRelacionesRecurrencia));
             btnrelaciones1 = new Button();
             btnrelaciones2 = new Button();
             SuspendLayout();
             // 
             // btnrelaciones1
             // 
-            btnrelaciones1.Location = new Point(156, 180);
+            btnrelaciones1.BackColor = SystemColors.WindowFrame;
+            btnrelaciones1.Location = new Point(132, 168);
             btnrelaciones1.Name = "btnrelaciones1";
-            btnrelaciones1.Size = new Size(97, 56);
+            btnrelaciones1.Size = new Size(97, 87);
             btnrelaciones1.TabIndex = 0;
             btnrelaciones1.Text = "Relaciones de recurrencia 1";
-            btnrelaciones1.UseVisualStyleBackColor = true;
+            btnrelaciones1.UseVisualStyleBackColor = false;
             btnrelaciones1.Click += btnrelaciones1_Click;
             // 
             // btnrelaciones2
             // 
-            btnrelaciones2.Location = new Point(350, 180);
+            btnrelaciones2.BackColor = SystemColors.WindowFrame;
+            btnrelaciones2.Location = new Point(529, 168);
             btnrelaciones2.Name = "btnrelaciones2";
-            btnrelaciones2.Size = new Size(97, 56);
+            btnrelaciones2.Size = new Size(97, 87);
             btnrelaciones2.TabIndex = 1;
             btnrelaciones2.Text = "Relaciones de recurrencia 2";
-            btnrelaciones2.UseVisualStyleBackColor = true;
+            btnrelaciones2.UseVisualStyleBackColor = false;
             btnrelaciones2.Click += btnrelaciones2_Click;
             // 
             // FormRelacionesRecurrencia
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             ClientSize = new Size(800, 450);
             Controls.Add(btnrelaciones2);
             Controls.Add(btnrelaciones1);
