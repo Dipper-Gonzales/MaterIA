@@ -24,6 +24,10 @@ namespace MaterIA.Logica
         {
             return a || b;
         }
+        public int OperacionNot(int valor)
+        {
+            return valor == 0 ? 1 : 0;
+        }
         public List<string[]> TablaVerdadCompleta()
         {
             List<string[]> tabla = new List<string[]>();
@@ -35,7 +39,25 @@ namespace MaterIA.Logica
                 {
                     int resultadoAnd = OperacionAnd(a, b);
                     int resultadoOr = OperacionOr(a, b);
-                    tabla.Add(new string[] { a.ToString(), b.ToString(), resultadoAnd.ToString(), resultadoOr.ToString() });
+                    int resultadoNotA = OperacionNot(a);
+                    int resultadoNotB = OperacionNot(b);
+                    int resultadoAAndNotB = OperacionAnd(a, resultadoNotB);
+                    int resultadoNotAAndB = OperacionAnd(resultadoNotA, b);
+                    int resultadoAOrNotB = OperacionOr(a, resultadoNotB);
+                    int resultadoNotAOrB = OperacionOr(resultadoNotA, b);
+
+                    tabla.Add(new string[] {
+                a.ToString(),
+                b.ToString(),
+                resultadoAnd.ToString(),
+                resultadoOr.ToString(),
+                resultadoNotA.ToString(),
+                resultadoNotB.ToString(),
+                resultadoAAndNotB.ToString(),
+                resultadoNotAAndB.ToString(),
+                resultadoAOrNotB.ToString(),
+                resultadoNotAOrB.ToString()
+            });
                 }
             }
 

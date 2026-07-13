@@ -5,12 +5,14 @@ using System.Data;
 using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
-using TuProyecto.Logica;
+using MaterIA.Logica;
 
 namespace MaterIA.Formularios
 {
     public partial class FrmPermutaciones : Form
     {
+        private MetodosConteo conteo = new MetodosConteo();
+
         public FrmPermutaciones()
         {
             InitializeComponent();
@@ -18,9 +20,22 @@ namespace MaterIA.Formularios
 
         private void button1_Click(object sender, EventArgs e)
         {
-            int n = int.Parse(textBox1.Text);
+            try
+            {
+                int n = int.Parse(textBox1.Text);
 
-            lblResultado.Text = MetodoConteo.Permutacion(n).ToString();
+                double resultado = conteo.PermutacionesSimple(n);
+
+                lblResultado.Text = "Resultado: " + resultado;
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Por favor ingresa un número válido.");
+            }
+            catch (ArgumentException ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }

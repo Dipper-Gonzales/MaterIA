@@ -30,6 +30,12 @@ namespace MaterIA.Formularios
             dgvTablaVerdad.Columns.Add("B", "B");
             dgvTablaVerdad.Columns.Add("AND", "A AND B");
             dgvTablaVerdad.Columns.Add("OR", "A OR B");
+            dgvTablaVerdad.Columns.Add("NOTA", "NOT A");
+            dgvTablaVerdad.Columns.Add("NOTB", "NOT B");
+            dgvTablaVerdad.Columns.Add("AandNotB", "A AND (NOT B)");
+            dgvTablaVerdad.Columns.Add("NotAandB", "(NOT A) AND B");
+            dgvTablaVerdad.Columns.Add("AorNotB", "A OR (NOT B)");
+            dgvTablaVerdad.Columns.Add("NotAorB", "(NOT A) OR B");
 
             foreach (var fila in tabla)
             {
