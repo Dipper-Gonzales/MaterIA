@@ -28,31 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmMetodoConteo));
-            lblTitulo = new Label();
             btnPermutaciones = new Button();
             btnCombinaciones = new Button();
             btnVariaciones = new Button();
             button1 = new Button();
             SuspendLayout();
             // 
-            // lblTitulo
-            // 
-            lblTitulo.AutoSize = true;
-            lblTitulo.Font = new Font("Microsoft Sans Serif", 8.25F);
-            lblTitulo.Location = new Point(325, 58);
-            lblTitulo.Name = "lblTitulo";
-            lblTitulo.Size = new Size(120, 13);
-            lblTitulo.TabIndex = 0;
-            lblTitulo.Text = "MÉTODO DE CONTEO";
-            lblTitulo.Click += label1_Click;
-            // 
             // btnPermutaciones
             // 
+            btnPermutaciones.Anchor = AnchorStyles.None;
             btnPermutaciones.BackColor = SystemColors.Highlight;
-            btnPermutaciones.Location = new Point(300, 132);
+            btnPermutaciones.Font = new Font("Impact", 12F, FontStyle.Strikeout, GraphicsUnit.Point, 0);
+            btnPermutaciones.Location = new Point(511, 61);
+            btnPermutaciones.Margin = new Padding(4, 5, 4, 5);
             btnPermutaciones.Name = "btnPermutaciones";
-            btnPermutaciones.Size = new Size(170, 54);
+            btnPermutaciones.Size = new Size(837, 159);
             btnPermutaciones.TabIndex = 1;
             btnPermutaciones.Text = "Permutaciones";
             btnPermutaciones.UseVisualStyleBackColor = false;
@@ -60,10 +50,13 @@
             // 
             // btnCombinaciones
             // 
+            btnCombinaciones.Anchor = AnchorStyles.None;
             btnCombinaciones.BackColor = SystemColors.ActiveCaption;
-            btnCombinaciones.Location = new Point(300, 209);
+            btnCombinaciones.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnCombinaciones.Location = new Point(253, 300);
+            btnCombinaciones.Margin = new Padding(4, 5, 4, 5);
             btnCombinaciones.Name = "btnCombinaciones";
-            btnCombinaciones.Size = new Size(170, 56);
+            btnCombinaciones.Size = new Size(693, 179);
             btnCombinaciones.TabIndex = 2;
             btnCombinaciones.Text = "Combinaciones";
             btnCombinaciones.UseVisualStyleBackColor = false;
@@ -71,10 +64,13 @@
             // 
             // btnVariaciones
             // 
+            btnVariaciones.Anchor = AnchorStyles.None;
             btnVariaciones.BackColor = SystemColors.InactiveCaption;
-            btnVariaciones.Location = new Point(300, 289);
+            btnVariaciones.Font = new Font("Impact", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            btnVariaciones.Location = new Point(13, 556);
+            btnVariaciones.Margin = new Padding(4, 5, 4, 5);
             btnVariaciones.Name = "btnVariaciones";
-            btnVariaciones.Size = new Size(170, 54);
+            btnVariaciones.Size = new Size(741, 165);
             btnVariaciones.TabIndex = 3;
             btnVariaciones.Text = "Variaciones";
             btnVariaciones.UseVisualStyleBackColor = false;
@@ -82,10 +78,9 @@
             // 
             // button1
             // 
-            button1.Location = new Point(8, 7);
-            button1.Margin = new Padding(2, 2, 2, 2);
+            button1.Location = new Point(11, 12);
             button1.Name = "button1";
-            button1.Size = new Size(91, 22);
+            button1.Size = new Size(130, 37);
             button1.TabIndex = 5;
             button1.Text = "Regresar";
             button1.UseVisualStyleBackColor = true;
@@ -93,25 +88,23 @@
             // 
             // FrmMetodoConteo
             // 
-            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
-            BackgroundImageLayout = ImageLayout.None;
-            ClientSize = new Size(821, 441);
+            BackgroundImage = Properties.Resources.WhatsApp_Image_2026_07_13_at_11_36_28_PM;
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(1361, 735);
             Controls.Add(button1);
             Controls.Add(btnVariaciones);
             Controls.Add(btnCombinaciones);
             Controls.Add(btnPermutaciones);
-            Controls.Add(lblTitulo);
+            Margin = new Padding(4, 5, 4, 5);
             Name = "FrmMetodoConteo";
             Text = "FrmMetodoConteo";
+            Load += FrmMetodoConteo_Load;
             ResumeLayout(false);
-            PerformLayout();
         }
 
         #endregion
-
-        private Label lblTitulo;
         private Button btnPermutaciones;
         private Button btnCombinaciones;
         private Button btnVariaciones;

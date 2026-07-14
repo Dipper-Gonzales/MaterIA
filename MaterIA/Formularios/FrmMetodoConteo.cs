@@ -47,5 +47,10 @@ namespace MaterIA.Formularios
             FormVariaciones formulario = new FormVariaciones();
             formulario.Show();
         }
+
+        private void FrmMetodoConteo_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

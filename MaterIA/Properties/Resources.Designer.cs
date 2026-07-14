@@ -93,9 +93,39 @@ namespace MaterIA.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap istockphoto_2188561526_612x612 {
+            get {
+                object obj = ResourceManager.GetObject("istockphoto-2188561526-612x612", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap istockphoto_990787448_1024x1024 {
             get {
                 object obj = ResourceManager.GetObject("istockphoto-990787448-1024x1024", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_ian_panelo_5491026 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-ian-panelo-5491026", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap pexels_ian_panelo_54910261 {
+            get {
+                object obj = ResourceManager.GetObject("pexels-ian-panelo-54910261", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -126,6 +156,76 @@ namespace MaterIA.Properties {
         internal static System.Drawing.Bitmap pexels_the_six_2148199655_33158875 {
             get {
                 object obj = ResourceManager.GetObject("pexels-the-six-2148199655-33158875", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_10_27_53_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 10.27.53 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_10_45_15_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 10.45.15 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_10_51_13_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 10.51.13 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_10_53_42_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 10.53.42 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_11_05_06_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 11.05.06 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_11_36_28_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 11.36.28 PM", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap WhatsApp_Image_2026_07_13_at_9_47_15_PM {
+            get {
+                object obj = ResourceManager.GetObject("WhatsApp Image 2026-07-13 at 9.47.15 PM", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

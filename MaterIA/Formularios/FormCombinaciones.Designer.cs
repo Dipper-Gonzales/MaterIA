@@ -90,6 +90,7 @@
             Controls.Add(txtN);
             Name = "FormCombinaciones";
             Text = "FormCombinaciones";
+            Load += FormCombinaciones_Load;
             ResumeLayout(false);
             PerformLayout();
         }

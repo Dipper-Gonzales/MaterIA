@@ -43,5 +43,10 @@ namespace MaterIA.Formularios
         {
             this.Close();
         }
+
+        private void FormCombinaciones_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
