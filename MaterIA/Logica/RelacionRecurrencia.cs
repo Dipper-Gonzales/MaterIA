@@ -4,44 +4,11 @@ using System.Text;
 
 namespace MaterIA.Logica
 {
-    internal class RecurrenciaLogica
+    public class RelacionRecurrencia
     {
-        // Calcula la sucesión desde el término 1 hasta el término n
-        public static List<long> CalcularSucesion(bool usaDosTerminos, long c1, long c2, long k, long a1, long a2, int n)
-        {
-            List<long> terminos = new List<long>();
-
-            terminos.Add(a1); // término 1
-            if (usaDosTerminos)
-            {
-                terminos.Add(a2); // término 2
-            }
-
-            for (int i = terminos.Count + 1; i <= n; i++)
-            {
-                long anterior1 = terminos[i - 2]; // a(i-1)
-                long nuevoTermino;
-
-                if (usaDosTerminos)
-                {
-                    long anterior2 = terminos[i - 3]; // a(i-2)
-                    nuevoTermino = (c1 * anterior1) + (c2 * anterior2) + k;
-                }
-                else
-                {
-                    nuevoTermino = (c1 * anterior1) + k;
-                }
-
-                terminos.Add(nuevoTermino);
-            }
-
-            return terminos;
-        }
-
-        // ===== ECUACIÓN CARACTERÍSTICA =====
-        // Para a(n) = c1*a(n-1) + c2*a(n-2)  ->  x^2 - c1*x - c2 = 0
         public string ResolverEcuacionCaracteristica(double c1, double c2, out double raiz1, out double raiz2, out bool tieneRaicesReales)
         {
+            // x^2 - c1x - c2 = 0  =>  a=1, b=-c1, c=-c2
             double a = 1;
             double b = -c1;
             double c = -c2;
@@ -74,6 +41,7 @@ namespace MaterIA.Logica
         }
 
         // ===== RELACIÓN HOMOGÉNEA =====
+        // Devuelve a(n) usando la solución general con las condiciones iniciales a0 y a1
         public double ResolverHomogenea(double c1, double c2, double a0, double a1, int n)
         {
             double raiz1, raiz2;
@@ -85,6 +53,9 @@ namespace MaterIA.Logica
 
             if (raiz1 != raiz2)
             {
+                // Caso raíces distintas: a(n) = A*r1^n + B*r2^n
+                // Con n=0: A + B = a0
+                // Con n=1: A*r1 + B*r2 = a1
                 double B = (a1 - raiz1 * a0) / (raiz2 - raiz1);
                 double A = a0 - B;
 
@@ -92,6 +63,9 @@ namespace MaterIA.Logica
             }
             else
             {
+                // Caso raíz repetida: a(n) = (A + B*n)*r^n
+                // Con n=0: A = a0
+                // Con n=1: (A + B)*r = a1
                 double A = a0;
                 double B = (a1 / raiz1) - A;
 
@@ -100,6 +74,8 @@ namespace MaterIA.Logica
         }
 
         // ===== RELACIÓN NO HOMOGÉNEA (con término constante d) =====
+        // a(n) = c1*a(n-1) + c2*a(n-2) + d
+        // Se calcula término a término (más simple y directo que la solución analítica)
         public double ResolverNoHomogenea(double c1, double c2, double d, double a0, double a1, int n)
         {
             if (n == 0) return a0;

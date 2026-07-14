@@ -26,5 +26,10 @@ namespace MaterIA.Formularios
             FormRelaciones2 formulario = new FormRelaciones2();
             formulario.ShowDialog();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

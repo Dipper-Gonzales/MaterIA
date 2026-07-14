@@ -28,16 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmPermutaciones));
             label1 = new Label();
             textBox1 = new TextBox();
             button1 = new Button();
             label2 = new Label();
             lblResultado = new Label();
+            btnregresar = new Button();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.ButtonShadow;
             label1.Location = new Point(236, 55);
             label1.Name = "label1";
             label1.Size = new Size(46, 15);
@@ -46,44 +49,60 @@
             // 
             // textBox1
             // 
-            textBox1.Location = new Point(234, 95);
+            textBox1.BackColor = SystemColors.InactiveCaption;
+            textBox1.Location = new Point(234, 111);
             textBox1.Name = "textBox1";
-            textBox1.Size = new Size(100, 23);
+            textBox1.Size = new Size(295, 23);
             textBox1.TabIndex = 1;
             // 
             // button1
             // 
-            button1.Location = new Point(233, 149);
+            button1.BackColor = SystemColors.MenuHighlight;
+            button1.Location = new Point(234, 176);
             button1.Name = "button1";
-            button1.Size = new Size(75, 23);
+            button1.Size = new Size(75, 47);
             button1.TabIndex = 2;
             button1.Text = "Calcular";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click;
             // 
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(235, 212);
+            label2.Location = new Point(236, 269);
             label2.Name = "label2";
             label2.Size = new Size(62, 15);
             label2.TabIndex = 3;
             label2.Text = "Resultado:";
+            label2.Click += label2_Click;
             // 
             // lblResultado
             // 
             lblResultado.AutoSize = true;
-            lblResultado.Location = new Point(232, 248);
+            lblResultado.Location = new Point(236, 310);
             lblResultado.Name = "lblResultado";
             lblResultado.Size = new Size(13, 15);
             lblResultado.TabIndex = 4;
             lblResultado.Text = "0";
             // 
+            // btnregresar
+            // 
+            btnregresar.BackColor = SystemColors.WindowFrame;
+            btnregresar.Location = new Point(41, 25);
+            btnregresar.Name = "btnregresar";
+            btnregresar.Size = new Size(118, 26);
+            btnregresar.TabIndex = 5;
+            btnregresar.Text = "regresar";
+            btnregresar.UseVisualStyleBackColor = false;
+            // 
             // FrmPermutaciones
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
+            BackgroundImageLayout = ImageLayout.Stretch;
+            ClientSize = new Size(806, 450);
+            Controls.Add(btnregresar);
             Controls.Add(lblResultado);
             Controls.Add(label2);
             Controls.Add(button1);
@@ -91,6 +110,7 @@
             Controls.Add(label1);
             Name = "FrmPermutaciones";
             Text = "FrmPermutaciones";
+            Load += FrmPermutaciones_Load;
             ResumeLayout(false);
             PerformLayout();
         }
@@ -102,5 +122,6 @@
         private Button button1;
         private Label label2;
         private Label lblResultado;
+        private Button btnregresar;
     }
 }
