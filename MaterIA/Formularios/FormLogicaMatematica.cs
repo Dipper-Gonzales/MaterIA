@@ -70,6 +70,34 @@ namespace MaterIA.Formularios
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
         {
-                    }
+        }
+
+        private void buttonNOT_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int valorA = int.Parse(txtValorA.Text);
+                int resultado = logica.OperacionNot(valorA);
+                lblResultado.Text = "Resultado: " + resultado;
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Ingresa un valor válido (0 o 1) en el primer campo.");
+            }
+        }
+
+        private void btnNotB_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                int valorB = int.Parse(txtValorB.Text);
+                int resultado = logica.OperacionNot(valorB);
+                lblResultado.Text = "Resultado: " + resultado;
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Ingresa un valor válido (0 o 1) en el segundo campo.");
+            }
+        }
     }
 }

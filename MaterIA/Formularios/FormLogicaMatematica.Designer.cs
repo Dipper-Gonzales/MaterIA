@@ -39,11 +39,13 @@
             buttonpress0 = new Button();
             button3 = new Button();
             button4 = new Button();
+            buttonNOT = new Button();
+            btnNotB = new Button();
             SuspendLayout();
             // 
             // button1
             // 
-            button1.Location = new Point(222, 285);
+            button1.Location = new Point(166, 285);
             button1.Name = "button1";
             button1.Size = new Size(80, 50);
             button1.TabIndex = 0;
@@ -64,6 +66,7 @@
             // 
             txtValorB.Location = new Point(71, 198);
             txtValorB.Name = "txtValorB";
+            txtValorB.ReadOnly = true;
             txtValorB.Size = new Size(173, 31);
             txtValorB.TabIndex = 2;
             txtValorB.Text = "Presione un numero";
@@ -151,11 +154,33 @@
             button4.UseVisualStyleBackColor = true;
             button4.Click += button4_Click;
             // 
+            // buttonNOT
+            // 
+            buttonNOT.Location = new Point(264, 285);
+            buttonNOT.Name = "buttonNOT";
+            buttonNOT.Size = new Size(80, 50);
+            buttonNOT.TabIndex = 11;
+            buttonNOT.Text = "NOT-A";
+            buttonNOT.UseVisualStyleBackColor = true;
+            buttonNOT.Click += buttonNOT_Click;
+            // 
+            // btnNotB
+            // 
+            btnNotB.Location = new Point(362, 285);
+            btnNotB.Name = "btnNotB";
+            btnNotB.Size = new Size(80, 50);
+            btnNotB.TabIndex = 12;
+            btnNotB.Text = "NOT-B";
+            btnNotB.UseVisualStyleBackColor = true;
+            btnNotB.Click += btnNotB_Click;
+            // 
             // FormLogicaMatematica
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1036, 547);
+            Controls.Add(btnNotB);
+            Controls.Add(buttonNOT);
             Controls.Add(button4);
             Controls.Add(button3);
             Controls.Add(buttonpress0);
@@ -186,5 +211,7 @@
         private Button buttonpress0;
         private Button button3;
         private Button button4;
+        private Button buttonNOT;
+        private Button btnNotB;
     }
 }
