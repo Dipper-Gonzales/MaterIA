@@ -97,5 +97,10 @@ namespace MaterIA.Formularios
         {
             this.Close();
         }
+
+        private void FormConjuntos_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
